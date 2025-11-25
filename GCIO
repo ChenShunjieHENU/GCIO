@@ -1,28 +1,19 @@
+import os
+import sys
+import time
+import math
+import warnings
 import numpy as np
 import pandas as pd
-from sklearn.linear_model import Lasso
-from sklearn.preprocessing import PolynomialFeatures
-from sklearn.linear_model import LinearRegression
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler
-import statsmodels.api as sm
-import scipy.stats as stat
-import math
-import os
 import scipy
-import scipy.stats as stat
-import time
-import sys
-import numpy.linalg as la
 import scipy.sparse as sp
-import warnings
-warnings.filterwarnings("ignore")
-import numpy as np
+import scipy.stats as stat
+import statsmodels.api as sm
+from sklearn.linear_model import Lasso, LinearRegression
+from sklearn.preprocessing import PolynomialFeatures, StandardScaler
+from sklearn.pipeline import Pipeline
 
 begin=time.asctime()
-
-
-# 此处改为手动输入参数
 param = {
     '-exp': 'exp.txt',
     '-label': 'metadata.txt',
