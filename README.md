@@ -1,0 +1,2 @@
+Collaborative inference of gene regulatory and cell-cell communication networks via iterative optimization
+This repository provides the GCIO framework along with example data for demonstration purposes. GCIO is designed to jointly infer gene regulatory networks (GRN) and cell–cell communication networks (CCC) from single-cell transcriptomics data, using an iterative optimization approach.
